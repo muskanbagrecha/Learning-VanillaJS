@@ -1,0 +1,22 @@
+body{
+
+}
+
+:root{
+    --primary-color: #FACD81;
+    --lighter-color: #FBDCA8;
+    --darker-color: #F8BD59;
+    --darkest-color: #C07C08;
+    --lightest-color: #FCE4BB;
+}
+
+header{
+    background-color: var(--lightest-color);
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.span-highlight{
+    color: var(--darker-color);
+}
