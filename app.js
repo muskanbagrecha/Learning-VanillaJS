@@ -5,7 +5,7 @@ var url = "https://api.funtranslations.com/translate/minion.json"
 
 function errorHandler(error) {
     console.log(Error);
-    alert("Server is down!")
+    alert("Server is down! Try again after one hour.")
 }
 
 function clickEventHandler() {

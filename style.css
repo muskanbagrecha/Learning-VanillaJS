@@ -1,3 +1,6 @@
+body{
+    font-family: 'Kalam', cursive;;
+}
 :root {
     --primary-color: #FACD81;
     --lighter-color: #FBDCA8;
@@ -8,16 +11,36 @@
 
 header {
     background-color: var(--lightest-color);
+    width: 100%;
     color: black;
     padding: 1rem;
     text-align: center;
     margin-bottom: 20px;
     border-bottom-left-radius: 10px;
 }
+footer{
+    background-color: var(--lightest-color);
+    width: 100%;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer #copyright
+{
+    font-size: x-small;
+}
+
+h3{
+    color: var(--darkest-color);
+}
 
 .span-highlight {
     color: var(--darker-color);
 }
+
+
 
 textarea {
     width: 30rem;
@@ -68,7 +91,6 @@ textarea:focus {
     margin-top: 20px;
     border: 2px solid var(--darker-color);
     margin: auto;
-    font-family: monospace;
     font-size: 1rem;
     padding: 10px;
 }
